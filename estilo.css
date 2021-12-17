@@ -1,0 +1,64 @@
+h1 {
+    background-color: grey;
+    color: yellow;
+    flex-grow:4;
+}
+
+.menu {
+    color: black;
+    margin-right: 30px;
+    margin-top: -10px;
+
+
+}
+
+.nav {
+    
+    display: flex;
+    justify-content: flex-end;
+    flex-grow:2;
+    background-color: yellow;
+    height: 37px
+   
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -29px;
+    
+    
+
+
+}
+
+h4 {
+   
+    
+    color: yellow;
+    flex-grow:3.9;
+    text-align:right;
+    margin-top: 60px;
+    background-color: gray;
+}
+
+.outro {
+    
+    padding-top: -800px;
+    display: flex;
+    margin-top: 780px;
+   
+    
+    
+
+}
+
+.rodape {
+    
+    flex-grow:3;
+    margin-top: 60px;
+    background-color: yellow;
+    height: 18px
+}
