@@ -37,7 +37,7 @@ h1 {
 h4 {
    
     
-    color: yellow;
+    color: gray;
     flex-grow:3.9;
     text-align:right;
     margin-top: 60px;
@@ -57,8 +57,79 @@ h4 {
 
 .rodape {
     
-    flex-grow:3;
+    flex-grow:4;
     margin-top: 60px;
-    background-color: yellow;
-    height: 18px
+    background-color:gray;
+    height: 18px;
+    
+    color: yellow;
+    justify-content: flex-end;
+}
+
+.tamanho {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.cachorrinhos {
+    display: flex;
+   
+    width: 200px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.todososcachorros {
+ display: flex;
+ margin-top:50;
+ flex-grow: 4;
+ 
+}
+
+.fim {
+    background-color:yellow;
+    flex-grow:2;
+    height:20px;
+    margin-top:55px;
+}
+
+.ultimo {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 252px){.todososcachorros {
+     width:200px;
+     height:2400px;
+     display: flex;
+     flex-direction: column;
+}
+.container{
+    width:200px;
+    height:300px;
+    display: flex;
+    flex-direction: column;
+
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    margin-bottom:0px;
+    padding-top: 150px;
+}
+
+h1 {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom:0px;
+
+}
+
 }
