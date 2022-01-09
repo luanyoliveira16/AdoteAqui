@@ -1,41 +1,68 @@
-h1 {
-    background-color: grey;
-    color: yellow;
-    flex-grow:4;
+
+body {
+    background-color: #2661F0;
+}
+
+header {
+    font-family: BEBAS;
+    font-size: 40px;
+
+}
+
+header:hover{
+    color:#F5BF3D;
+    font-size: 50px;
 }
 
 .menu {
-    color: black;
-    margin-right: 30px;
-    margin-top: -10px;
-
+    color: #7AF082;
+    margin: 20px;
+    font-family: BEBAS;
+    font-size: 25px;
 
 }
 
 .menu:hover {
-    color: red;
+    color: #F5BF3D;
+    font-size: 30px;
 }
 
 .nav {
-    
-    display: flex;
-    justify-content: flex-end;
-    flex-grow:2;
-    background-color: yellow;
-    height: 37px
-   
+  display: flex;
+ 
+  
+}
 
+buttom {
+    background-color: #F5BF3D;
+    border-radius: 10px;
+    font-family: BEBAS;
+    font-size: 30px;
+    color: #F0357C;
+}
+
+buttom:hover {
+    color:#86A5F0;
+    font-size: 35px;
+}
+
+.redessociais {
+    width: 100px;
+    height: 100px;
+}
+
+.redessociais:hover {
+    
+    width: 130px;
+    height: 130px;
 }
 
 .container {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin-top: -29px;
-    
-    
-
-
+    justify-content: space-between;
+    margin-top: -30px;
+    background-color: #F0357C;
 }
 
 h4 {
@@ -109,10 +136,13 @@ h4 {
     margin-top:55px;
 }
 
-.ultimo {
-    display: flex;
-    align-items: center;
-    margin-top: 80px;
+footer {
+    background-color: #F0357C;
+    font-family: BEBAS;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 100px;
+    
 }
 
 @media (max-width: 252px){.todososcachorros {
